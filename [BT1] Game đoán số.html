@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number</title>
+</head>
+<body>
+</body>
+<script>
+    let Number
+    let count = 0
+    do {
+        Number = prompt("Hãy nhập số bạn đoán")
+        if (Number === "1994") {
+            alert("Bạn đoán đúng rồi!")  
+            break          
+        } else {
+            count++
+        }
+    } while (count < 3);{
+    if (count === 3)
+            alert("Game over!")
+    }
+</script>
+</html>
